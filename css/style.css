@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{    
+    padding: 20px;
+    background-color: rgb(138, 0, 46);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{   
+    width:80%;
+    margin: 20px auto;   
+    text-align: center;      
+}
+
+#banner{  
+    width: 300px;
+    margin: 0px auto;
+    padding: 10px;
+    font-size: 32px;
+    background-color: rgb(255, 208, 0);
+    color: rgb(202, 0, 0);  
+    font-weight: bold;     
+}
+
+.show-time{
+    margin-top: 20px;
+    color: white;
+}
+
+table{    
+    width: 320px;
+    margin: 20px auto;
+    border:2px violet solid;
+    font-size: 20px;
+    color:white;    
+}
+
+.btn-el{
+    margin-top: 40px;
+    width: 80px;
+    background-color: green;
+    font-size: large;    
+    color: white;
+}
+
+
+td{
+    padding: 5px;
+}
+
+td:last-child{
+    background-color: tomato;
+}
+
+@media screen and (max-width:640px){
+    #banner{
+        width: 200px;
+        font-size: 24px;
+    }
+    table{
+        width: 220px;
+        font-size: 12px;
+    }
+
+    .btn-el{
+        margin-top: 40px;
+    }
+}
+
